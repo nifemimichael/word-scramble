@@ -18,14 +18,15 @@ body {
 }
 
 .container {
-  width: 420px;
+  width: 350px;
   border-radius: 10px;
   background: #222;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  height: 450px;
 }
 
 .container h2 {
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 600;
   padding: 20px 25px;
   border-bottom: 1px solid #333;
@@ -38,7 +39,7 @@ body {
 
 .content .word {
   user-select: none;
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   letter-spacing: 18px;
@@ -53,7 +54,7 @@ body {
 }
 
 .details p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
   color: #bbb;
 }
@@ -67,7 +68,7 @@ body {
   height: 50px;
   outline: none;
   padding: 0 15px;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 8px;
   border: 1px solid #333;
   background-color: #111;
@@ -127,4 +128,9 @@ body {
 
 .buttons .check-word:hover {
   background: #2c52ed;
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    zoom: 2;
+  }
 }
